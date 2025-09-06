@@ -1,4 +1,5 @@
 # PixelQuery
+<<<<<<< HEAD
 
 A powerful image search system that combines visual embeddings with OCR text extraction for comprehensive image retrieval. Built with SigLIP-2 for visual understanding and PaddleOCR for text extraction.
 
@@ -131,3 +132,5 @@ Common issues:
 - CUDA out of memory → reduce batch size in config.yaml
 - Slow processing → enable GPU for OCR
 - Import errors → check all dependencies installed
+=======
+>>>>>>> 6a8aff78d09050a35384aeb04607d9d532ce8ccb
