@@ -1,0 +1,23 @@
+models:
+  siglip:
+    name: "google/siglip-so400m-patch14-384"
+    precision: "fp16"
+    device: "auto"
+    batch_size: 8
+  ocr:
+    languages: ["en"]
+    confidence_threshold: 0.7
+    use_gpu: true
+
+database:
+  vector_db_path: "./data/vector_db"
+  text_db_path: "./data/text.db"
+
+performance:
+  max_memory_gb: 4
+  num_workers: 4
+
+search:
+  default_visual_weight: 0.7
+  default_text_weight: 0.3
+  max_results: 50
