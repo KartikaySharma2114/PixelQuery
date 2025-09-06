@@ -1,1 +1,1 @@
-# Image-search-engine
+# PixelQuery
